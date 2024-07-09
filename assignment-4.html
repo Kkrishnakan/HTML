@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+    <h1>Mark Sheet</h1>
+    <form>
+        <table border="1">
+            <caption>Marksheet</caption>
+            <tr>
+                <th>Name:</th>
+                <td>
+                    <input type="text" id="studentName" name="studentName" placeholder="Enter Name" required>
+                </td>
+            </tr>
+            <tr>
+                <th>Subject Name</th>
+                <th>Total Max Marks</th>
+                <th>Marks Obtained</th>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td><input type="text" value="100" disabled></td>
+                <td><input type="number" name="englishMarks" required>50</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td><input type="text" value="100" disabled></td>
+                <td><input type="number" name="hindiMarks" required>50</td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td><input type="text" value="100" disabled></td>
+                <td><input type="number" name="mathMarks" required>50</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td><input type="text" value="100" disabled></td>
+                <td><input type="number" name="scienceMarks" required>50</td>
+            </tr>
+            <tr>
+                <td>Social Science</td>
+                <td><input type="text" value="100" disabled></td>
+                <td><input type="number" name="socialScienceMarks" required>50</td>
+            </tr>
+            <tr>
+                <th>Total Max Marks</th>
+                <td><input type="text" value="500" disabled></td>
+                <td>
+                    <output for="englishMarks hindiMarks mathMarks scienceMarks socialScienceMarks">250</output>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

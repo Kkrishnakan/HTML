@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>NYC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            z-index: 999;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: 800;
+            color: rgb(5 72 147) !important;
+            font-family: sans-serif;
+            text-shadow: 4px 1px 2px;
+            letter-spacing: 4px;
+        }
+
+        .bg-primary-gredient {
+            background-image: URL(https://innovativebc.quickbase.com/up/btgtdpx5h/g/rg/eg/va/Background%20Image.png);
+            max-width: 100%;
+            height: 50px;
+            display: block;
+            /* Ensures proper spacing and alignment */
+        }
+
+        .ml-auto {
+            margin-left: auto !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: rgb(5 72 147) !important;
+            font-weight: 600;
+        }
+
+        .app-container {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        .bg-plum-plate {
+            margin: auto 0px;
+        }
+
+        .index {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 30px;
+            color: #fff;
+            padding: 15px 0px;
+            font-weight: 700;
+        }
+
+        .sub-title {
+            font-size: 22px;
+            color: #d88504;
+            padding: 0px 0px 10px 0px;
+        }
+
+        .cards {
+            width: 80%;
+            height: 180px;
+            padding: 28px;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 20px;
+            color: #054893;
+        }
+
+        .tabIcon {
+            font-size: 30px;
+            padding: 30px;
+            color: #084b96;
+        }
+
+        @media only screen and (max-width: 920px) {
+            .index {
+                margin-top: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-primary-gredient">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 p-0">
+        <div class="container">
+            <a href="#home">
+                <img src="https://builderprogram-vpittala.quickbase.com/up/btru6gybp/g/rd/eg/va/Dark-Logo-NYC.jpg" alt="Logo"
+                    class="navbar-logo" style="height:50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">User Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ">Log Out</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class=" app-container">
+                            <div class="h-100 bg-plum-plate bg-animation">
+                                <div class="h-100 justify-content-center align-items-center">
+                                    <div class="container index ">
+                                        <h4 class="title">NAME OF APP</h4>
+                                        <h4 class="sub-title">WELCOME USER NAME</h4>
+                                        <div class="main-tabs p-5">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <a href="Guest-services.html">
+                                                        <div class="card cards">
+                                                            <i class="fa fa-user tabIcon"></i>
+                                                            <h4 class="card-title">Guest Services</h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card cards">
+                                                        <i class="fa fa-users tabIcon"></i>
+                                                        <h4 class="card-title">Site Tracking</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card cards">
+                                                        <i class="fa fa-calendar-clock tabIcon"></i>
+                                                        <h4 class="card-title">Bed Management</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card cards">
+                                                        <i class="fa fa-users tabIcon"></i>
+                                                        <h4 class="card-title">Others</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            </div>
+            <script>
+                // window.history.forward();
+                //   function noBack() {
+                //       window.history.forward();
+                //   }
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
